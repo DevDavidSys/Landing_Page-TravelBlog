@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    background-image: url(images/neuschwanstein-532850_1920.jpg);
+    background-size: cover;
+
+
+}
+/*==================================================================*/
+header{
+    width: 100%;
+    height: 20%;
+    background-image: url(images/landscape-bigbig.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 10% 30%;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+header h1{
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: 10px;
+    color: rgba(0, 0, 0,0.5);
+    margin-bottom:62px;
+    text-align: center;
+}
+header nav{
+    background-color: rgba(255,255,255,0.5);
+    text-align: center ;
+    overflow: hidden;
+}
+header nav ul li{
+    width: 25%;
+    color: black;
+    margin: 0 auto;
+    margin-right: -4px;
+    padding: 10px;
+    font-family: 'Luckiest Guy', cursive;
+    display: inline-block;
+    font-size: 24px;
+    list-style: none;
+    text-align: center;
+
+}
+header nav ul :hover{
+        background-color: rgba(255,255,255,0.7);
+}
+header nav ul li a{
+    font-size: 40px;
+    position: relative;
+    color: black;
+    text-decoration: none;
+}
+/*============================================================*/
+main{
+    width: 100%;
+    
+}
+main .container{
+    width: 100%;
+    padding: 30px;
+    
+}
+main .container .posts{
+    display: inline-block;
+    width: 70%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.5);
+    margin: 0px 20px 10px 0 ;
+    
+}
+main .container article{
+
+    width: 95%;
+    height: 600px;
+    padding: 50px;
+    margin: 20px 30px auto;
+    background-color: rgba(255,255,255,0.8); 
+    display: inline-block;
+    text-align: center;
+    
+}
+main .container article img{
+    width: 600px;
+    height: 400px;
+    float: left;
+    margin-right: 40px;
+    border: 12px solid rgb(110, 110, 110);
+    border-radius: 7px;
+    padding: 5px;
+
+}
+main .container article h1{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 48px;
+    letter-spacing: 5px;
+    margin-bottom: 100px;
+
+}
+main .container article .content{
+    font-size: 20px;
+    font-family: 'Luckiest Guy', cursive;
+
+    text-align: justify;
+
+    letter-spacing: 0px;
+
+}
+
+main .container sidebar{    
+    display: inline-block;
+    width: 25%;
+    height: 1400px;
+    background-color: rgba(255,255,255,0.5);
+    vertical-align: top;
+    margin: 0;
+    margin-bottom: 10px;
+    
+}
+main .container sidebar h1{
+    margin: 16px auto;
+    text-align: center;
+    
+    font-family: 'Luckiest Guy', cursive;
+    
+}
+main .container sidebar .post{
+    vertical-align: middle;
+    background-color: rgba(255,255,255,0.8);
+
+    width: 95%;
+    height: 30%;
+    margin: 20px auto;
+    padding: 10px;
+}
+main .container sidebar .post h6{
+    width: 100%;
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 24px;
+    letter-spacing: 2px;
+    margin: 20px;
+    margin-top: 0;
+
+}
+main .container sidebar .post img{
+    width: 100%;
+    height: 200px;
+    background-image: url(images/Posts/ );
+    background-size: cover;
+    margin-bottom:20px ;
+}
+main .container sidebar .post p{
+
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    text-align: justify;
+
+}
+/*==============================================================================*/
+footer{
+    background-color: #ccc;
+    height: 5%;
+    width: 100%;
+    padding: 10px;
+}
+footer nav{
+
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 2px;
+    text-align: center;
+}
